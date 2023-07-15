@@ -1,0 +1,230 @@
+.logIn {
+  position: absolute;
+  background-color: #fbf2ea;
+  left: calc(50% - 250px);
+  top: 200px;
+  width: 500px;
+  height: 431.4px;
+}
+
+.logIn2 {
+  position: absolute;
+  background-color: #fbf2ea;
+  left: calc(50% - 250px);
+  top: 100px;
+  width: 500px;
+  height: 715.78px;
+}
+
+.backImg {
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: -1 !important;
+}
+
+span {
+  text-align: left !important;
+  font-family: Roboto, Arial, Helvetica;
+  font-weight: 400;
+  line-height: 1.2;
+  font-size: calc(0.875rem * var(--acorn-font-scale, 1));
+  color: rgb(81, 43, 43);
+  margin-bottom: 8px;
+}
+
+.innerDiv {
+  padding: 12px;
+  padding-left: 24px;
+  padding-right: 24px;
+  margin-top: 24px;
+}
+
+.input {
+  background-color: white;
+  color: #512b2b;
+  font-family: Roboto, Arial, Helvetica;
+  font-size: calc(1rem * var(--acorn-font-scale, 1));
+  font-weight: 400;
+  line-height: 1;
+  outline: 0;
+  box-sizing: border-box;
+  overflow: hidden;
+  border: 0;
+  width: 100%;
+  box-shadow: none;
+  padding: 0 16px;
+  height: 45px;
+  margin-bottom: 24px;
+}
+
+.checkbox-input {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  /* appearance: none; */
+  margin: 0px;
+}
+
+.checkBoxDiv {
+  display: block;
+  width: 100%;
+}
+
+.inputWrapper {
+  position: relative;
+  min-width: 20px;
+  min-height: 20px;
+}
+
+.label-wrapper {
+  margin-bottom: 0.2em;
+}
+
+.help-wrapper {
+  position: relative;
+  top: -2px;
+  margin-left: 32px;
+}
+
+.options-group {
+  padding: 0;
+  margin: 0;
+  border: none;
+}
+
+.radio {
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+.button, .button1 {
+  font-family: "Swedbank Headline", sans-serif;
+  font-weight: 700;
+  line-height: 40px;
+  font-size: calc(1.1875rem * var(--acorn-font-scale, 1));
+  box-sizing: border-box;
+  border: none;
+  display: block;
+  margin: 0px;
+  text-align: center;
+  padding: 0px 12px;
+  min-width: 112px;
+  min-height: 40px;
+  white-space: nowrap;
+  border-radius: 2px;
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+  background: rgb(255, 95, 0);
+}
+
+.button:hover {
+  background: rgba(255, 94, 0, 0.555);
+}
+
+.button1 {
+  margin-top: 12px;
+  color: rgb(81, 43, 43) !important;
+  background: rgb(209, 198, 196) !important;
+}
+
+.button1:hover {
+  background: rgb(177, 165, 162) !important;
+}
+
+.acorn, .acorn1 {
+  position: absolute;
+  background-color: #ffffff;
+  top: 815.78px;
+  left: calc(50% - 250px);
+  width: 500px;
+  height: 108px;
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
+.acorn1 {
+  top: 631.4px;
+}
+
+._app_loader {
+  top: calc(50% - 17px);
+  left: calc(50% - 17px);
+  font-size: 10px;
+  position: absolute;
+  text-indent: -9999em;
+  border-top: 0.3em solid rgba(72, 147, 160, 0.3);
+  border-right: 0.3em solid rgba(72, 147, 160, 0.3);
+  border-bottom: 0.3em solid rgba(72, 147, 160, 0.3);
+  border-left: 0.3em solid #4893a0;
+  transform: translateZ(0);
+  animation: _app_loader-spin 0.8s infinite linear;
+  z-index: -1;
+}
+
+._app_loader, ._app_loader:after {
+  border-radius: 50%;
+  width: 34px;
+  height: 34px;
+  z-index: -1;
+}
+ @keyframes _app_loader-spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+ }
+
+ .d-block {
+  z-index: 100 !important;
+ }
+
+ .content {
+  font-family: Roboto, Arial, Helvetica;
+  font-weight: 400;
+  line-height: 1.2;
+  font-size: 24px;
+  color: #f35b1c;
+}
+
+.pattern {
+  height: 280px;
+  width: 280px;
+  margin-left: 86px;
+  margin-right: 86px;
+}
+
+.myH4 {
+  font-family: "Swedbank Headline", sans-serif;
+  font-size: 10 !important;
+  font-weight: 700;
+  line-height: 1.2;
+  color: #512b2b;
+}
+
+.label {
+  font-family: Roboto, Arial, Helvetica;
+  font-weight: 400;
+  font-size: var(--acorn-mql-var-0);
+  line-height: 1.2;
+  text-decoration: underline;
+  white-space: nowrap;
+  color: rgb(37, 120, 134);
+}
+
+.icon {
+  -webkit-mask-size: cover;
+  display: block;
+  background-color: rgb(49, 163, 174);
+  -webkit-mask-image: url(https://www.swedbank.se/content/dam/global/icons/small-arrow-right.svg?v=2);
+  width: 24px;
+  height: 24px;
+}
+
+.icon:hover {
+  cursor: pointer;
+}
